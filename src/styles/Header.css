@@ -1,0 +1,50 @@
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+
+
+.null{
+    display: block;
+    pointer-events: none;
+    text-decoration: none;
+}
+
+h3{
+    font-size: 38px;
+    color: #ddd;
+}
+
+
+
+
+ul{
+    display: flex;
+    list-style-type: none;
+    font-weight: bold;
+    background: #4a4e69;
+    border-radius: 20px;
+    padding: 0 0 0 10px;
+    
+}
+
+.nav-item{
+    color: #ddd;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 18px;
+    padding: 8px 13px;
+}
+
+.active{
+    color: #e63946;
+}
+
+.info-contact p{
+    color: #ddd;
+}
